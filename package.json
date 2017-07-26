@@ -1,0 +1,20 @@
+{
+  "name": "schiphol-runways",
+  "version": "0.1.0",
+  "main": "dist/runways.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "dev": "babel src --watch --presets babel-preset-es2015 --out-dir dist",
+    "version": "npm run build"
+  },
+  "dependencies": {
+    "osmosis": "^1.1.4"
+  },
+  "description": "Get the status of schiphol's runways",
+  "author": "Jelle Kralt <jelle@jellekralt.nl>",
+  "devDependencies": {
+    "babel-cli": "6",
+    "babel-preset-es2015": "6"
+  }
+}
