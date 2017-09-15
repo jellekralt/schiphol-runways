@@ -11,7 +11,7 @@
   "dependencies": {
     "osmosis": "^1.1.4"
   },
-  "description": "Get the status of schiphol's runways",
+  "description": "Get the status of Schiphol's runways",
   "author": "Jelle Kralt <jelle@jellekralt.nl>",
   "devDependencies": {
     "babel-cli": "6",
