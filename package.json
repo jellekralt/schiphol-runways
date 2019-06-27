@@ -6,15 +6,15 @@
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir dist",
     "dev": "babel src --watch --presets babel-preset-es2015 --out-dir dist",
-    "version": "npm run build"
+    "version": "npm run build",
+    "test": "npm run build && tape test/**/*.spec.js"
   },
-  "dependencies": {
-    "osmosis": "^1.1.4"
-  },
-  "description": "Get the status of Schiphol's runways",
+  "dependencies": {},
+  "description": "Get the status of schiphol's runways",
   "author": "Jelle Kralt <jelle@jellekralt.nl>",
   "devDependencies": {
     "babel-cli": "6",
-    "babel-preset-es2015": "6"
+    "babel-preset-es2015": "6",
+    "tape": "^4.9.0"
   }
 }
